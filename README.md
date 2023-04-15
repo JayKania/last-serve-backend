@@ -1,131 +1,137 @@
-<!--- The following README.md sample file was adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md by Gabriella Mosquera for academic use ---> 
+<!--- The following README.md sample file was adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md by Gabriella Mosquera for academic use --->
 <!--- You may delete any comments in this sample README.md file. If needing to use as a .txt file then simply delete all comments, edit as needed, and save as a README.txt file --->
 
-# Assignment 3
+# Last Serve Backend
 
+- _Date Created_: 20 March 2023
+- _Last Modification Date_: 31 March 2023
+- _group backend gitlab repo URL_: https://git.cs.dal.ca/vjoshi/csci_5709_group6_backend/-/tree/main
+- _group frontend gitlab repo URL_: https://git.cs.dal.ca/ribadiya/csci_5709_web_group6/-/tree/main
 
-* *Date Created*: 20 March 2023
-* *Last Modification Date*: 31 March 2023
-* *group backend gitlab repo  URL*: https://git.cs.dal.ca/vjoshi/csci_5709_group6_backend/-/tree/main
-* *group frontend gitlab repo URL*: https://git.cs.dal.ca/ribadiya/csci_5709_web_group6/-/tree/main
-
-
-* *Deployed frontend URL*: https://lastserve-a3.netlify.app/
-* *Deployed backend URL*: https://csci5709-a3-backend.onrender.com
+- _Deployed frontend URL_: https://lastserve-a3.netlify.app/
+- _Deployed backend URL_: https://csci5709-a3-backend.onrender.com
 
 ## Authors
-* [Lav patel](lv842182@dal.ca) - *Developer*
-* [Viraj Joshi](viraj.joshi@dal.ca) 
-* [Arpit Ribadiya](ar304626@dal.ca)
-* [Neha Karkhanis](nh601176@dal.ca) 
-* [Jay Kania](jy440982@dal.ca)
 
-* *link to application*: https://lastserve-a3.netlify.app/
+- [Lav patel](lv842182@dal.ca) - _Developer_
+- [Viraj Joshi](viraj.joshi@dal.ca)
+- [Arpit Ribadiya](ar304626@dal.ca)
+- [Neha Karkhanis](nh601176@dal.ca)
+- [Jay Kania](jy440982@dal.ca)
 
+- _link to application_: https://lastserve-a3.netlify.app/
 
 # Feature developed
-* Restaurant order management system
-The following feature is developed for management of orders by a restuarant manager
-To test the following functionality 
-* Go to https://lastserve-a3.netlify.app/
-* Click on login
-* Click on login restaurant
-* Use the email: aaa@gmail.com password:1234567890
-* Restuarant dashboard page is displayed
 
-## Tasks in the feature 
+- Restaurant order management system
+  The following feature is developed for management of orders by a restuarant manager
+  To test the following functionality
+- Go to https://lastserve-a3.netlify.app/
+- Click on login
+- Click on login restaurant
+- Use the email: aaa@gmail.com password:1234567890
+- Restuarant dashboard page is displayed
+
+## Tasks in the feature
+
 ### View orders by user, their timeslots, and items
-* Click on orders on the restaurant overview page
-* Search for an order number in active or pastorder by name or ordernumber
-* Click on ordernumber table header to sort the table based on the header selected
-* Click on pagination to see other orders
+
+- Click on orders on the restaurant overview page
+- Search for an order number in active or pastorder by name or ordernumber
+- Click on ordernumber table header to sort the table based on the header selected
+- Click on pagination to see other orders
 
 ### Change order status from pending to packed and picked
-* Click on orders on the restaurant overview page
-* In the active orders click on packed or picked button to change the status of the order 
+
+- Click on orders on the restaurant overview page
+- In the active orders click on packed or picked button to change the status of the order
 
 ### View volunteers their availiblity , and phone number to help with orders
-* Click on Volunteers on the restaurant overview page.
-* Click on name, Availiblity table header to sort the table based on the header selected
-* Click on pagination to see other volunteers
+
+- Click on Volunteers on the restaurant overview page.
+- Click on name, Availiblity table header to sort the table based on the header selected
+- Click on pagination to see other volunteers
 
 ### files created by lav in backend
-* controller/restaurantOrdersController.js
-* controller/restaurantVolunteerController.js
-* routes/restaurantOrders.js
-* routes/restaurantVolunteers.js
+
+- controller/restaurantOrdersController.js
+- controller/restaurantVolunteerController.js
+- routes/restaurantOrders.js
+- routes/restaurantVolunteers.js
 
 ### files updated by lav in frontend
-* src/components/RestaurantOrders/RestaurantOrders.jsx
-* src/components/RestaurantVolunteers/RestaurantVolunteers.jsx
+
+- src/components/RestaurantOrders/RestaurantOrders.jsx
+- src/components/RestaurantVolunteers/RestaurantVolunteers.jsx
 
 ## Feature Developed by Viraj
 
-* User Profile Management 
+- User Profile Management
 
-## Tasks 
+## Tasks
 
-* User Registration
-* User Login 
-* User Password Reset 
-* User View Profile Details
-* User Edit Profile Details 
-* User Logout
+- User Registration
+- User Login
+- User Password Reset
+- User View Profile Details
+- User Edit Profile Details
+- User Logout
 
 ## Created files for Frontend by Viraj
 
-* src/components/Login/Login.jsx
-* src/components/Signup/Signup.jsx
-* src/components/SignupModal/SignupModal.jsx
-* src/components/UserProfile/UserProfile.jsx
-* src/components/UserDetails/UserDetails.jsx
-* src/components/EditUserDetails/EditUserDetails.jsx
-* src/components/EditUserDetails/EditUserDetailsModal.jsx
+- src/components/Login/Login.jsx
+- src/components/Signup/Signup.jsx
+- src/components/SignupModal/SignupModal.jsx
+- src/components/UserProfile/UserProfile.jsx
+- src/components/UserDetails/UserDetails.jsx
+- src/components/EditUserDetails/EditUserDetails.jsx
+- src/components/EditUserDetails/EditUserDetailsModal.jsx
 
 ## Created files for Backend by Viraj
 
-* db/conn.js
-* routes/users.js
-* controller/user_controller.js
-* server.js
+- db/conn.js
+- routes/users.js
+- controller/user_controller.js
+- server.js
 
 ## Feature developed by Arpit
 
-* Restaurant Profile Management
+- Restaurant Profile Management
 
 ## Tasks of Restaurant Profile Management
 
-* Restaurant registration
-* Restaurant login
-* View restaurant profile.
-* Update restaurant profile.
+- Restaurant registration
+- Restaurant login
+- View restaurant profile.
+- Update restaurant profile.
 
 ## Created files for Frontend by Arpit
 
-* UpdateRestaurantProfile.jsx
-* SignupRestaurant.jsx
-* RestaurantProfile.jsx
-* RestaurantLogin.jsx
+- UpdateRestaurantProfile.jsx
+- SignupRestaurant.jsx
+- RestaurantProfile.jsx
+- RestaurantLogin.jsx
 
 ## Created files for Backend by Arpit
 
-* restaurantController.js
-* restaurants.js
-* Server.js
+- restaurantController.js
+- restaurants.js
+- Server.js
 
 ## Feature developed by Neha
 
-* Volunteer sign up for LastServe
+- Volunteer sign up for LastServe
 
 ## Tasks of Volunteer sign up
-* Volunteer registration
-* Volunteer Email check
+
+- Volunteer registration
+- Volunteer Email check
 
 ## Created files for Backend by Neha
 
-* volunteerController.js
-* volunteers.js
-* Server.js
+- volunteerController.js
+- volunteers.js
+- Server.js
 
 ### User Order management
 
@@ -134,6 +140,7 @@ To test the following functionality
   - Filter through all active donors based on location, restaurant name and type of food.
   - Appointment slot booking for pickup.
   - Email of confirmed order once an appointment is booked.
+
 ## Files Created by jay Kania
 
 - Files Created (Frontend)
@@ -159,13 +166,14 @@ To test the following functionality
   - subscription.js
   - postsController.js
   - subscriptionController.js
+
 ### Prerequisites for backend
 
 To have a local copy of this lab / assingnment / project up and running on your local machine, you will first need to install the following software / libraries / plug-ins
 
 ```
 
-mongodbclient for estasblishing connection and querying mongodb 
+mongodbclient for estasblishing connection and querying mongodb
 express for setting up routes for the rest services
 body-parser for parsing json-body and setting json responses
 dotenv for fetching and setting environment variables into the nodejs application
@@ -180,16 +188,16 @@ Say what the step will be, assume the marker just acquired a computer
 
 ```
 
-npm install 
+npm install
 npm start
 
 ```
 
 ## Deployment
 
-* Checkout the branch main from the repo provided
+- Checkout the branch main from the repo provided
 
-* From the root of the directory following command can be run to start the application 
+- From the root of the directory following command can be run to start the application
 
 ```
 
@@ -201,12 +209,13 @@ npm start
 
 ### controller/restaurantVolunteerController.js
 
-*Lines 17*
+_Lines 17_
+
 ### controller/restaurantOrdersController.js
 
-*Lines 23*,
-*Lines 59*,
-*Lines 88*
+_Lines 23_,
+_Lines 59_,
+_Lines 88_
 
 ```
 const restaurant = await restaurantsCollection.findOne({ _id: email });
@@ -214,7 +223,7 @@ const restaurant = await restaurantsCollection.findOne({ _id: email });
 
 ```
 
-The code above was created by adapting the code in [mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) as shown below: 
+The code above was created by adapting the code in [mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) as shown below:
 
 ```
 
@@ -224,12 +233,12 @@ const venusFlytrap = await plants.findOne({ name: "venus flytrap" });
 ```
 
 The code in [mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) as shown below: was implemented by mongodb
-[mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) Code was used to search for a single document in the mongo db 
-[mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) Code was modified by searching  the mongodb database with primary key ("_id") rather then other ky pair of the document
+[mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) Code was used to search for a single document in the mongo db
+[mongodb documentation ](https://www.mongodb.com/docs/realm/sdk/node/examples/query-mongodb/) Code was modified by searching the mongodb database with primary key ("\_id") rather then other ky pair of the document
 
 ### CSCI_5709_GROUP6_BACKEND/db/conn.js
 
-*Lines 16-28*
+_Lines 16-28_
 
 ```
 client = new MongoClient("mongodb+srv://admin:admin123@tutorials.zi8tcpb.mongodb.net/?retryWrites=true&w=majority", {
@@ -251,7 +260,7 @@ try {
 
 ```
 
-The code above was created by adapting the code in [MongoDB](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb-how-to-get-connected-to-your-database) as shown below: 
+The code above was created by adapting the code in [MongoDB](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb-how-to-get-connected-to-your-database) as shown below:
 
 ```
 async function main(){
@@ -260,17 +269,17 @@ async function main(){
      * See https://docs.mongodb.com/ecosystem/drivers/node/ for more details
      */
     const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
- 
+
 
     const client = new MongoClient(uri);
- 
+
     try {
         // Connect to the MongoDB cluster
         await client.connect();
- 
+
         // Make the appropriate DB calls
         await  listDatabases(client);
- 
+
     } catch (e) {
         console.error(e);
     } finally {
@@ -286,10 +295,9 @@ The code in [Mongodb](https://www.mongodb.com/blog/post/quick-start-nodejs-mongo
 The code is used to connect to a cluster hosted on MongoDB Atlas.
 The code was modified to create a singleton pattern to ensure DB object is created only once and by retun a db object connected to the database tutorial7 on the hosted cluster in MongoDB Atlas.
 
-
 ### CSCI_5709_GROUP6_BACKEND/controller/user_controller.js
 
-*Lines 148-163*
+_Lines 148-163_
 
 ```
 
@@ -312,7 +320,7 @@ The code was modified to create a singleton pattern to ensure DB object is creat
 
 ```
 
-The code above was created by adapting the code in [w3schools](https://www.w3schools.com/nodejs/nodejs_email.asp) as shown below: 
+The code above was created by adapting the code in [w3schools](https://www.w3schools.com/nodejs/nodejs_email.asp) as shown below:
 
 ```
 
@@ -340,14 +348,14 @@ transporter.sendMail(mailOptions, function(error, info){
 });
 
 ```
+
 The code in [w3schools](https://www.w3schools.com/nodejs/nodejs_email.asp) was implemented to send an email using Node.js.
 The code is used to send a password reset key to the user.
 The code was modified by adding a sender's email and the application password generated using the account settings option on GMAIL to the trasporter method. The text field in 'mailOptions' was modified to send a randomly genrated alphanumeric key of size 8 to the user.
 
-
 ### CSCI_5709_GROUP6_BACKEND/controller/user_controller.js
 
-*Lines 51-52*
+_Lines 51-52_
 
 ```
     bcrypt.genSalt(10, function (err, salt) {
@@ -358,8 +366,7 @@ The code was modified by adding a sender's email and the application password ge
 
 ```
 
-The code above was created by adapting the code in [npm.js](https://www.npmjs.com/package/bcrypt) as shown below: 
-
+The code above was created by adapting the code in [npm.js](https://www.npmjs.com/package/bcrypt) as shown below:
 
 ```
 
@@ -375,15 +382,13 @@ bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
 
 The code in [npm.js](https://www.npmjs.com/package/bcrypt) was implemented to hash a plaintext message.
 The code is used to hash a plaintext password before storing it in the database.
-The code was modified by adding a saltRound of 10, hashing the password received in the request body and storing it in a string named 'hashedPassword' to be used later. 
-
+The code was modified by adding a saltRound of 10, hashing the password received in the request body and storing it in a string named 'hashedPassword' to be used later.
 
 ## Sources Used in Frontend
 
-
 ### CSCI_5709_WEB_GROUP6/src/components/Login/Login.jsx
 
-*Lines 26*
+_Lines 26_
 
 ```
 const validEmail = new RegExp(
@@ -392,10 +397,10 @@ const validEmail = new RegExp(
 
 ```
 
-The code above was created by adapting the code in [w3resource](https://www.w3resource.com/javascript/form/email-validation.php) as shown below: 
+The code above was created by adapting the code in [w3resource](https://www.w3resource.com/javascript/form/email-validation.php) as shown below:
 
 ```
-function ValidateEmail(mail) 
+function ValidateEmail(mail)
 {
  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
   {
@@ -409,11 +414,11 @@ function ValidateEmail(mail)
 
 The code in [w3resource](lihttps://www.w3resource.com/javascript/form/email-validation.phpnk) was implemented to validate an email using a regular expression.
 The code was used to validate the entered email address.
-The code was modified by setting the regular expression in a variable 'validEmail' and match it with the state value using the test function. 
+The code was modified by setting the regular expression in a variable 'validEmail' and match it with the state value using the test function.
 
 ## CSCI_5709_WEB_GROUP6/src/components/SignupModal/SignuModal.jsx
 
-*Lines 30-35* 
+_Lines 30-35_
 
 ```
     display: flex;
@@ -421,7 +426,8 @@ The code was modified by setting the regular expression in a variable 'validEmai
     background-color: rgba(0, 0, 0, 0.5);
 
 ```
-The code above was created by adapting the code in [Medium.com](https://codesandbox.io/s/magical-christian-qxtdm?from-embed) as shown below: 
+
+The code above was created by adapting the code in [Medium.com](https://codesandbox.io/s/magical-christian-qxtdm?from-embed) as shown below:
 
 ```
 .modal {
@@ -441,13 +447,13 @@ The code above was created by adapting the code in [Medium.com](https://codesand
 
 ```
 
-The code in [Medium.com](https://codesandbox.io/s/magical-christian-qxtdm?from-embed) was implemented style the modal 
+The code in [Medium.com](https://codesandbox.io/s/magical-christian-qxtdm?from-embed) was implemented style the modal
 The code was referred to style the modal contents.
 The code was modified by remove the css properties that were already known to me or were not needed for the purpose of simply displaying a success message.
 
 ### App.js
 
-*Lines 21 - 39*
+_Lines 21 - 39_
 
 ```
 <Routes>
@@ -471,7 +477,7 @@ The code was modified by remove the css properties that were already known to me
       </Routes>
 ```
 
-The code above was created by adapting the code in [dev](https://dev.to/emmanuelthecoder/getting-started-with-react-router-19de) as shown below: 
+The code above was created by adapting the code in [dev](https://dev.to/emmanuelthecoder/getting-started-with-react-router-19de) as shown below:
 
 ```
 <BrowserRouter>
@@ -487,17 +493,16 @@ The code above was created by adapting the code in [dev](https://dev.to/emmanuel
 
 The code in [dev](https://dev.to/emmanuelthecoder/getting-started-with-react-router-19de) was implemented to route user on different pages.The code was used because same functionality was required in application. The code was modified by replacing application component and route at required places.
 
+### \_redirects
 
-### _redirects
-
-*Line 1*
+_Line 1_
 
 ```
 /* /index.html 200
 
 ```
 
-The code above was created by adapting the code in [netlify](https://answers.netlify.com/t/netlify-page-not-found-when-sharing-react-router-dom-based-links/11744) as shown below: 
+The code above was created by adapting the code in [netlify](https://answers.netlify.com/t/netlify-page-not-found-when-sharing-react-router-dom-based-links/11744) as shown below:
 
 ```
 /* /index.html 200
@@ -506,16 +511,15 @@ The code above was created by adapting the code in [netlify](https://answers.net
 
 The code in [netlify](https://answers.netlify.com/t/netlify-page-not-found-when-sharing-react-router-dom-based-links/11744) was used to resolved issue which I was facing while deploying my application on netlify. I was able to deploy my application however, routing was not working properly (Note:- It was working properly on local). To resolve this I have added this code which is provided by Netlify itself.
 
-
 ### src/components/RestaurantOrders/RestaurantOrders.jsx
 
-*Lines 179 - 188*
+_Lines 179 - 188_
 
 ```
     const search=(value,searchData)=>{
       let result=[];
       searchData.map((row)=>{
-        if (row.name.toUpperCase().startsWith(value.toUpperCase()) || 
+        if (row.name.toUpperCase().startsWith(value.toUpperCase()) ||
         row._id.toUpperCase().startsWith(value.toUpperCase())){
           result.push(row);
         }
@@ -526,7 +530,7 @@ The code in [netlify](https://answers.netlify.com/t/netlify-page-not-found-when-
 
 ```
 
-The code above was created by adapting the code in [tutorial 4 ](https://git.cs.dal.ca/lpatel/tutorial2/-/blob/tutorial4/src/components/UserProfile.js) as shown below: 
+The code above was created by adapting the code in [tutorial 4 ](https://git.cs.dal.ca/lpatel/tutorial2/-/blob/tutorial4/src/components/UserProfile.js) as shown below:
 
 ```
 
@@ -544,4 +548,4 @@ The code above was created by adapting the code in [tutorial 4 ](https://git.cs.
 
 The code in [tutorial 4 ](https://git.cs.dal.ca/lpatel/tutorial2/-/blob/tutorial4/src/components/UserProfile.js) was implemented by lav patel
 [tutorial 4 ](https://git.cs.dal.ca/lpatel/tutorial2/-/blob/tutorial4/src/components/UserProfile.js)'s Code was to search for a name in array and set another array with the filtered result
-[tutorial 4 ](https://git.cs.dal.ca/lpatel/tutorial2/-/blob/tutorial4/src/components/UserProfile.js)'s Code was modified by searching for name as well as order number in the given array 
+[tutorial 4 ](https://git.cs.dal.ca/lpatel/tutorial2/-/blob/tutorial4/src/components/UserProfile.js)'s Code was modified by searching for name as well as order number in the given array
